@@ -78,12 +78,9 @@ BENCH_N=500 BENCH_C=50 make bench
 
 ## GitHub Pages (frontend)
 
-After this repo is on GitHub:
+Live UI: https://ranjitha-rani.github.io/webhook-delivery-platform/
 
-1. **Settings → Pages → Source: GitHub Actions**
-2. Push to `main` (workflow: `.github/workflows/deploy-pages.yml`)
-3. Open `https://ranjitha-rani.github.io/webhook-delivery-platform/`
-4. The hosted UI shows **demo data** by default (browsers block HTTPS Pages → `http://localhost` API calls)
+Pages is served from the `gh-pages` branch (static Vite build). The hosted UI shows **demo data** by default (browsers block HTTPS Pages → `http://localhost` API calls).
 
 For a **live** console, use local Vite instead of Pages:
 

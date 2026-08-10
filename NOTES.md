@@ -56,9 +56,9 @@ Delivery workers (HMAC sign + POST)
 5. Optional: `BENCH_N=500 BENCH_C=50 make bench`
 
 ## GitHub Pages
-- Workflow: `.github/workflows/deploy-pages.yml`
-- Hosted UI talks to local API (`http://localhost:8080`) via Connection panel
-- Enable: repo Settings → Pages → GitHub Actions
+- Live UI: https://ranjitha-rani.github.io/webhook-delivery-platform/
+- Served from the `gh-pages` branch (static build)
+- Demo data on Pages; use local `make frontend-dev` for live API
 
 ## Verification checklist
 - [x] Postgres queue path (UI demo + bench)
